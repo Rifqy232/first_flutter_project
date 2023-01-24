@@ -14,7 +14,7 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("First App"),
+        title: const Text("Test First App"),
         centerTitle: true,
         backgroundColor: const Color(0xFF075e54),
         leading: const Icon(
@@ -73,6 +73,12 @@ class _HomeScreenState extends State<HomeScreen> {
               ],
             ),
           ],
+        ),
+      ),
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {},
+        child: const Icon(
+          Icons.person_add,
         ),
       ),
     );
